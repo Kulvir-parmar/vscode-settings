@@ -3,9 +3,7 @@
 # Font
 
 * Current font: [Hack](https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip)
-* [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
 * [Source Code pro](https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf?raw=true)
-* [Montserrat](https://fonts.google.com/specimen/Montserrat)
 
 # Extensions
 
@@ -26,6 +24,7 @@ Full list of [extensions](https://gist.github.com/Kulvir-parmar/8a49ff96f75cab3f
     "workbench.editor.enablePreview": false,
     "editor.snippetSuggestions": "bottom",
     "code-runner.executorMap": {
+        
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -83,14 +82,12 @@ Full list of [extensions](https://gist.github.com/Kulvir-parmar/8a49ff96f75cab3f
     "gitlens.advanced.messages": {
         "suppressGitMissingWarning": true
     },
-
-    "workbench.startupEditor": "none",
     "terminal.integrated.allowChords": false,
     "code-runner.runInTerminal": true,
 
-    "workbench.iconTheme": "seti",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 13,
-    "editor.lineHeight": 19,
+    "editor.lineHeight": 20,
     "editor.fontFamily": "hack",
 
 
@@ -116,7 +113,21 @@ Full list of [extensions](https://gist.github.com/Kulvir-parmar/8a49ff96f75cab3f
     
     "debug.console.fontFamily": "hack",
     "scm.inputFontFamily": "hack",
-    "workbench.colorTheme": "One Monokai"
+    "workbench.colorTheme": "One Monokai",
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.editor.restoreViewState": false,
+    "workbench.editor.sharedViewState": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "thunder-client.codeSnippetLanguage": "js-fetch",
+    "extensions.autoUpdate": false,
+    "editor.suggest.insertMode": "replace",
+    "terminal.integrated.fontFamily": "\"Hack\"",
+    "terminal.integrated.fontSize": 13,
 }
 
 ```
